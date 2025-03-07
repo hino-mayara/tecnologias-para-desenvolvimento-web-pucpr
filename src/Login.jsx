@@ -29,7 +29,7 @@ function Login() {
   return (
     <>
       <h1>
-        <strong>Login - Teste</strong>
+        <strong>Login</strong>
       </h1>
       <div>
         <input
