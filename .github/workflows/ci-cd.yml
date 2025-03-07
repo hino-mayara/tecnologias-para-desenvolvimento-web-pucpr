@@ -18,7 +18,7 @@ jobs:
         run: docker push mayarayumihino/techapp-pucpr:latest
   deploy:
     needs: build
-    runs-on: ip-172-31-39-210
+    runs-on: self-hosted
     steps:
       - name: Pull Image from DockerHub
         run: docker pull mayarayumihino/techapp-pucpr:latest
